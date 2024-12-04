@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    padding: 40px;
+    text-align: center;
+    border-bottom: 5px solid #86b4d4;
+  }
+  
+  .profile {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #4a718c;
+    margin-bottom: 10px;
+  }
+  
+  .hero .intro {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #4a718c;
+  }
+  
+  .about, .hobi, .contact {
+    padding: 25px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2, .hobi h2, .contact h2 {
+    font-size: 2rem;
+    color: #86b4d4;
+    margin-bottom: 15px;
+  }
+  
+  .hobby-card {
+    background-color: #f6faff;
+    border: 1px solid #c2d7e2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hobby-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hobby-card h3 {
+    font-size: 1.5rem;
+    color: #4a718c;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    font-size: 1.1rem;
+    color: #4a718c;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #c2d7e2;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .contact-form button {
+    background-color: #86b4d4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #4a718c;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .project-card {
+        display: inline-block;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .project-card:last-child {
+        margin-right: 0;
+    }
+  }
+  
